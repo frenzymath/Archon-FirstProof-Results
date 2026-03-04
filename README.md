@@ -2,7 +2,7 @@
 
 **Archon** is an early-stage, **fully autonomous mathematical formalization agentic system** built upon Claude Code.
 
-This repository contains Lean 4 formalizations, **generated entirely by the Archon system**, of problems selected from the FirstProof project. Generated **fully autonomously** (with only one strategic hint for Problem 4), these formalizations are complete with **zero sorrys** and **zero manually written code**.
+This repository contains Lean 4 formalizations, **generated entirely by the Archon system**, of problems selected from the FirstProof project. Generated **fully autonomously** (with only one strategic hint for Problem 4, as documented in `HUMAN_INTERACTION_RECORD` ([Markdown](./HUMAN_INTERACTION_RECORD.md) | [PDF](./Human_Interaction_Record.pdf))), these formalizations are complete with **zero sorrys** and **zero manually written code**.
 
 For each problem, the system automatically executes the following workflow:
 1. **Proof Generation:** **Generates** proofs by utilizing LeanSearch for precise Mathlib retrieval and consulting external models (like Gemini/GPT) for informal guides. Guided by this information, the agent automatically **plans a formalization path**, **eliminates sorrys step-by-step**, **adapts** to Mathlib-related roadblocks, and **verifies** that the formal semantics align faithfully with the original natural language proof.
