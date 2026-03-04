@@ -11,6 +11,8 @@ For each problem, the system automatically executes the following workflow:
 
 This project is developed by **FrenzyMath**, the AI4M team at the Beijing International Center for Mathematical Research (BICMR), Peking University.
 
+For more details, please **refer to** our latest news: https://frenzymath.com/news/archon-firstproof/
+
 ---
 
 ## Problem Statements
